@@ -7,7 +7,7 @@ img{display:block;max-width:100%}
 .site-header{height:82px;padding:0 clamp(22px,6vw,88px);display:flex;align-items:center;justify-content:space-between;background:var(--paper);position:relative;z-index:5}
 .wordmark{display:flex;gap:11px;align-items:center;text-decoration:none;font:600 16px/1.15 var(--serif);letter-spacing:.01em}
 .wordmark small{display:block;font:10px/1.6 var(--sans);letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-top:4px}
-.mark{width:39px;height:39px;border:1px solid var(--rust);color:var(--rust);display:grid;place-items:center;font:600 13px var(--serif);letter-spacing:-.06em}
+.mark{width:39px;height:39px;border:1px solid var(--rust);color:var(--rust);display:grid;place-items:center;font:600 13px var(--serif);letter-spacing:-.06em}.mark img{width:25px;height:30px;object-fit:contain}
 nav{display:flex;align-items:center;gap:clamp(18px,3vw,42px)}
 nav a{text-decoration:none;font-size:12px;font-weight:600;letter-spacing:.04em}
 nav a:not(.nav-cta):hover,.text-link:hover{color:var(--rust)}
